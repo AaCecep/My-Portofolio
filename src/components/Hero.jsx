@@ -4,7 +4,8 @@ import { useState, useEffect } from "react";
 import { FaReact, FaMicrochip, FaPython, FaVuejs, FaFileAlt, FaRobot, FaLaravel } from "react-icons/fa";
 import { SiTailwindcss, SiArduino } from "react-icons/si";
 import { motion } from "framer-motion";
-import hero from "../assets/hero.png";
+import hero from "../assets/cep3.png";
+import resumeFile from "../assets/CV.pdf";
 
 function Hero (){
     const [text, setText] = useState("");
@@ -14,9 +15,9 @@ function Hero (){
     // eslint-disable-next-line react-hooks/exhaustive-deps
     const titles = [
         'Web Developer',
-        'Ai Automation Engineer',
         'Robotic Enthusiast',
-        'IoT Engineer'
+        'Embedded Systems',
+        'Automation Engineer'
     ]
     
     useEffect(() => {
@@ -76,7 +77,8 @@ function Hero (){
                         transition={{ duration: 0.6, delay: 0.2 }}
                         >
                             <span className="text-slate-700 dark:text-slate-300">
-                                Hi, I'm
+                                Hi, I'm 
+                                <span className="font-bold text-cyan-100"> Muhammad Gulam Syarif</span>
                             </span>
                             <motion.span
                             className="relative inline-block text-transparent bg-clip-text
@@ -101,7 +103,7 @@ function Hero (){
                             animate={{ opacity: 1, y: 0 }}
                             transition={{ duration: 0.6, delay: 0.4 }}
                         >
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus unde error laudantium odit neque maxime! Quidem, porro at. Suscipit voluptatibus animi repudiandae veritatis asperiores similique aliquid autem. Error, repellendus enim?
+                            Bachelor of Computer Engineering graduate from Brawijaya University
                         </motion.p>
                         <motion.div
                         className="flex flex-wrap gap-4 justify-center lg:justify-start"
@@ -109,19 +111,22 @@ function Hero (){
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.6, delay: 0.6 }}
                         >
+                            <a href={resumeFile} target="_blank" rel="noopener noreferrer">
+                                <motion.button
+                                    whileHover={{scale: 1.05}}
+                                    whileTap={{scale:0.95}}
+                                    className="px-8 py-3 bg-linear-to-r from-cyan-500
+                                    to-blue-500 text-white rounded-full font-semibold
+                                    text-lg shadow-lg hover:shadow-cyan-500/30
+                                    transition-all duration-300 flex items-center gap-2
+                                    [text-shadow:0_0_8px_rgba(34_211_238)]"
+                                >
+                                    <FaFileAlt className="text-white" />
+                                    Resume
+                                </motion.button>
+                            </a>
                             <motion.button
-                            whileHover={{scale: 1.05}}
-                            whileTap={{scale:0.95}}
-                            className="px-8 py-3 bg-linear-to-r from-cyan-500
-                            to-blue-500 text-white rounded-full font-semibold
-                            text-lg shadow-lg hover:shadow-cyan-500/30
-                            transition-all duration-300 flex items-center gap-2
-                            [text-shadow:0_0_8px_rgba(34_211_238)]"
-                            >
-                                <FaFileAlt className="text-white" />
-                                Resume
-                            </motion.button>
-                            <motion.button
+                            onClick={() => window.open("https://wa.me/6281234567890", "_blank")}
                             whileHover={{scale: 1.05}}
                             whileTap={{scale:0.95}}
                             className="px-8 py-3 border-2 border-cyan-500 text-cyan-600 dark:text-cyan-400

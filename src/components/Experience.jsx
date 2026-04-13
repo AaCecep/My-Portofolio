@@ -1,6 +1,6 @@
 // eslint-disable-next-line no-unused-vars
 import { motion } from "framer-motion";
-import experienceImg from '../assets/experience.png'
+import experienceImg from '../assets/cep2.png'
 
 function Experience(){
     const experience =[
@@ -9,7 +9,7 @@ function Experience(){
             title: 'Lead Team Humanoid',
             tahun: 'Jan - Des 2025',
             company: 'Robotiik Filkom UB',
-            desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi cumque voluptate, at fugiat minus eveniet tempora natus eos minima animi deleniti officiis voluptatibus vero mollitia dolorem velit? Rem, repellendus impedit.',
+            desc: 'Led a humanoid robotics team in designing and developing systems for the ROBOTIS OP3 robot, including task distribution, project planning, and technical decision-making. Additionally, ensured that each team member achieved their assigned progress according to the established targets.',
             color: 'from-cyan-500 to-blue-500'
         },
         {
@@ -17,7 +17,7 @@ function Experience(){
             title: 'Programing Humanoid',
             tahun: 'Jan - Des 2024',
             company: 'Robotiik Filkom UB',
-            desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi cumque voluptate, at fugiat minus eveniet tempora natus eos minima animi deleniti officiis voluptatibus vero mollitia dolorem velit? Rem, repellendus impedit.',
+            desc: 'Developed and migrated the system from ROS1 to ROS2, including rewriting and adapting robotic control code. Implemented Zero Moment Point (ZMP) calculation to determine the balance of a humanoid robot and applied PID control to stabilize the ZMP. Also integrated inverse kinematics for generating smooth and stable robot motion.',
             color: 'from-cyan-500 to-blue-400'
         },           
         {
@@ -25,7 +25,7 @@ function Experience(){
             title: 'Finalis KRSBI-H',
             tahun: 'May - Jul 2024',
             company: 'Team Atom Robotiik UB',
-            desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi cumque voluptate, at fugiat minus eveniet tempora natus eos minima animi deleniti officiis voluptatibus vero mollitia dolorem velit? Rem, repellendus impedit.',
+            desc: 'Contributed as a finalist in KRSBI-H (Kontes Robot Sepak Bola Indonesia Humanoid). The robot is capable of making independent decisions such as detecting the ball, chasing it, and performing kicking actions automatically. Contributed to the development of the robot system, including motion control, sensor integration, and performance testing during matches.',
             color: 'from-cyan-500 to-blue-500'
         },
         {
@@ -33,7 +33,7 @@ function Experience(){
             title: 'Disiplin Mahasiswa',
             tahun: 'Aug - Nov 2024',
             company: 'PKKMB Filkom UB',
-            desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi cumque voluptate, at fugiat minus eveniet tempora natus eos minima animi deleniti officiis voluptatibus vero mollitia dolorem velit? Rem, repellendus impedit.',
+            desc: 'Served as Student Discipline Officer in PKKMB FILKOM Brawijaya University, responsible for maintaining participant discipline, supporting event coordination, and ensuring the smooth execution of new student orientation activities in accordance with established rules and procedures.',
             color: 'from-cyan-500 to-blue-400'
         },
         {
@@ -41,7 +41,7 @@ function Experience(){
             title: 'Instructor Electrical',
             tahun: 'Oct - Nov 2024',
             company: 'Robotiik Beginner Filkom UB',
-            desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi cumque voluptate, at fugiat minus eveniet tempora natus eos minima animi deleniti officiis voluptatibus vero mollitia dolorem velit? Rem, repellendus impedit.',
+            desc: 'Responsible for teaching participants basic electronics, robot wiring systems, and the application of sensors and actuators. Furthermore, they provide practical guidance in assembling and testing basic robot electronic systems through hands-on training.',
             color: 'from-cyan-500 to-blue-400'
         }, 
         {
@@ -49,7 +49,7 @@ function Experience(){
             title: 'Electrikal Humanoid',
             tahun: 'Mar - Des 2023',
             company: 'Robotiik Filkom UB',
-            desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi cumque voluptate, at fugiat minus eveniet tempora natus eos minima animi deleniti officiis voluptatibus vero mollitia dolorem velit? Rem, repellendus impedit.',
+            desc: 'Designed PCB for control buttons on the OP3 robot, performed maintenance on robotic electrical components, and assembled robotic systems, handled firmware uploading to the OpenCR controller. Additionally, integrated the BNO055 IMU sensor into the robots sub-controller.',
             color: 'from-cyan-500 to-blue-400'
         },           
         {
@@ -57,7 +57,7 @@ function Experience(){
             title: 'Disiplin Mahasiswa',
             tahun: 'Aug - Nov 2023',
             company: 'Robotiik Filkom UB',
-            desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi cumque voluptate, at fugiat minus eveniet tempora natus eos minima animi deleniti officiis voluptatibus vero mollitia dolorem velit? Rem, repellendus impedit.',
+            desc: 'Served as Student Discipline Officer in PKKMB FILKOM Brawijaya University, responsible for maintaining participant discipline, supporting event coordination, and ensuring the smooth execution of new student orientation activities in accordance with established rules and procedures.',
             color: 'from-cyan-500 to-blue-500'
         }
     ]
@@ -125,10 +125,6 @@ function Experience(){
                             </motion.span>
                         </span>
                     </h2>
-                    <p className="text-base sm:text-lg text-slate-600 dark:text-slate-400
-                    max-w-2xl mx-auto px-4">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore nobis dolore a nesciunt facilis ab, corporis excepturi commodi ipsum ut iste magnam tenetur rerum recusandae dignissimos molestias, ex nemo aperiam.
-                    </p>
                 </motion.div>
                 <div className="relative flex flex-col lg:flex-row items-center
                 justify-between gap-8 lg:gap-12 xl:gap-16">

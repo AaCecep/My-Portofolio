@@ -7,7 +7,7 @@ import { FaSun, FaMoon, FaTimes, FaBars } from "react-icons/fa";
 function Navbar(){
     const [nav, setNav] = useState(false);
     const [shadow, setShadow] = useState(false);
-    const [darkMode, setDarkMode] = useState(false);
+    const [darkMode, setDarkMode] = useState(true);
 
     const links = [
         {id:1, link: 'home', text: 'Home'},

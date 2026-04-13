@@ -6,30 +6,38 @@ import work1 from "../assets/work1.png"
 import work2 from "../assets/work2.png"
 import work3 from "../assets/work3.png"
 import work4 from "../assets/work4.png"
+import work5 from "../assets/work5.png"
 import { FaChevronCircleLeft, FaChevronCircleRight, FaExternalLinkAlt, FaGithub } from "react-icons/fa";
 
 function Work(){
     const [currentIndex, setCurrentIndex] = useState(0);
-    const itemsPerPage = 3;
+    const itemsPerPage = 6;
 
     const projects = [
-        {id:1, title:"E-comerse Platform", category: 'Full Stack',
-            img: work1, tech: ['react', 'Node.js', 'MongoDB']
+        {id:1, title:"Sistem Kontrol Zero Moment Point (ZMP) untuk Keseimbangan Humanoid Robot dengan Proportional Integral Derivatif (PID)", category: 'Robotis',
+            img: work4, tech: ['ROS 2', 'ZMP', 'PID', 'Inverse Kinematic', 'ROBOTIS OP3'],
+            link:"https://drive.google.com/file/d/1QpoGrLaE1K7lyBftbSdyKgweL3Ir1shY/view?usp=sharing",
+            git: "https://github.com/AaCecep/Sistem-kontrol-ZMP-untuk-keseimbangan-robot-humanoid-dengan-PID"
         },
-        {id:2, title:"E-comerse Platform", category: 'Full Stack',
-            img: work2, tech: ['react', 'Node.js', 'MongoDB']
+        {id:2, title:"Wearable Device untuk Mendeteksi Stres Berbasis Sinyal Photoplethysmogram", category: 'Machine Learning',
+            img: work3, tech: ['Sensor MAX30102', 'Sinyal PPG', 'Random Forest', 'ESP32S3'],
+            link:"https://filkom.ub.ac.id/project/2025/06/wearable-device-untuk-mendeteksi-stress-berbasis-sinyal-photoplethysmogram/",
+            git: "https://github.com/kathleeneve-lyn/Capstone-Project-Deteksi-Stress"
         },
-        {id:3, title:"E-comerse Platform", category: 'Full Stack',
-            img: work3, tech: ['react', 'Node.js', 'MongoDB']
+        {id:3, title:"FreshCart – Organic Grocery Platform", category: 'Frontend',
+            img: work2, tech: ['React', 'Tailwind'],
+            link:"https://grocerygulam.netlify.app/",
+            git: "https://github.com/AaCecep/grocery"
         },
-        {id:4, title:"E-comerse Platform", category: 'Full Stack',
-            img: work4, tech: ['react', 'Node.js', 'MongoDB']
+        {id:4, title:"Lokalisasi", category: 'Robotis',
+            img: work5, tech: ['ROS 2', 'ROBOTIS OP3', 'IMU'],
+            link:"https://drive.google.com/file/d/1C4sRgEpUOWqNXwSJWl9LK8LYqNUac4Nd/view?usp=sharing",
+            git: "https://github.com/AaCecep/Lokalisasi"
         },
-        {id:5, title:"E-comerse Platform", category: 'Full Stack',
-            img: work1, tech: ['react', 'Node.js', 'MongoDB']
-        },
-        {id:6, title:"E-comerse Platform", category: 'Full Stack',
-            img: work1, tech: ['react', 'Node.js', 'MongoDB']
+        {id:5, title:"Modern Restaurant Website UI", category: 'Fontend',
+            img: work1, tech: ['React', 'Tailwind'], 
+            link:"https://restaurantgulam.netlify.app/",
+            git: "https://github.com/AaCecep/Restaurant"
         },
     ];
 
@@ -88,11 +96,17 @@ function Work(){
                                     from-cyan-500/50 flex items-center justify-center
                                     gap-4 opacity-0 group-hover:opacity-100 
                                     transition-opacity duration-300">
-                                        <a href="#" className="p-3 bg-white rounded-full
+                                        <a href={project.git}
+                                        target="_blank"
+                                        rel="nooperner norefferrer"
+                                        className="p-3 bg-white rounded-full
                                         text-slate-700 hover:text-cyan-500 transition-colors">
                                             <FaGithub size={24}/>
                                         </a>
-                                        <a href="#" className="p-3 bg-white rounded-full
+                                        <a href={project.link} 
+                                        target="_blank"
+                                        rel="nooperner norefferrer"
+                                        className="p-3 bg-white rounded-full
                                         text-slate-700 hover:text-cyan-500 transition-colors">
                                             <FaExternalLinkAlt size={20}/>
                                         </a>

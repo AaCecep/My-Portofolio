@@ -1,7 +1,7 @@
 import React from "react";
 // eslint-disable-next-line no-unused-vars
 import {motion} from "framer-motion";
-import about from "../assets/about.png";
+import about from "../assets/cep1.png";
 import { FaEnvelope } from "react-icons/fa";
 
 function About(){
@@ -134,7 +134,7 @@ function About(){
                         whileInView={{opacity:1, y: 0}}
                         viewport={{once: true}}
                         transition={{duration: 0.6, delay: 0.3}}>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, quas! Sapiente ab eaque ipsam harum possimus hic, modi ratione, quisquam odit illo ducimus? Consequatur atque nesciunt voluptate sed id porro.
+                            I have strong competencies in Web Development, Embedded Systems, Internet of Things (IoT), and Robotics. I have hands-on experience in developing web applications using modern frameworks such as React, Vue.js, and Laravel.
                         </motion.p>
                         <motion.p className="text-base md:text-lg text-slate-600
                         dark:text-slate-400 mb-6 max-w-2xl lg:mx-0"
@@ -142,7 +142,8 @@ function About(){
                         whileInView={{opacity:1, y: 0}}
                         viewport={{once: true}}
                         transition={{duration: 0.6, delay: 0.3}}>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate aperiam ex numquam quia, inventore officiis, consequuntur quasi quaerat, a dicta dolor! Necessitatibus, temporibus nisi? Consequuntur, obcaecati soluta! Cupiditate, modi sit.
+                            I am also experienced in designing and developing integrated computer systems involving various sensors and actuators, including implementing communication protocols and optimizing system performance in resource-constrained environments.
+                            In addition, I have a strong specialization in robotics, particularly in the development and control of humanoid robots such as ROBOTIS OP3. My experience includes implementing balance control systems, integrating hardware and software using ROS, and analyzing system stability using PID control methods.
                         </motion.p>
                         <motion.div className="flex flex-wrap gap-6 md:gap-8
                         justify-center lg:justify-start mb-8"
@@ -170,7 +171,7 @@ function About(){
                                     Project Completed
                                 </div>
                             </div>
-                            <div className="text-center">
+                            {/* <div className="text-center">
                                 <motion.div className="text-2xl md:text-3xl font-bold
                                 text-transparent bg-clip-text bg-linear-to-r
                                 from-cyan-500 to-blue-400">
@@ -179,7 +180,7 @@ function About(){
                                 <div className="text-xs md:text-sm text-slate-500 dark:text-slate-400">
                                     performance
                                 </div>
-                            </div>
+                            </div> */}
                         </motion.div>
                         <motion.div className="flex flex-wrap gap-4
                         justify-center lg:justify-start"
@@ -187,21 +188,25 @@ function About(){
                         whileInView={{opacity:1, y: 0}}
                         viewport={{once: true}}
                         transition={{duration: 0.6, delay: 0.6}}>
-                            <motion.button
-                            whileHover={{scale: 1.05}}
-                            whileTap={{scale: 0.95}}
-                            className="px-6 md:px-8 py-2 border-2 border-cyan-500
-                            text-cyan-600 dark:text-cyan-400 rounded-full
-                            font-semibold text-base md:text-lg
-                            hover:bg-cyan-300 dark:hover:bg-cyan-50
-                            transition-all duration-300 flex items-center gap-2
-                            [text-shadow:0_0_8px_rgb(32_211_238)]"
+                            <a 
+                                href="mailto:gulam.syarif38@gmail.com?subject=Hiring%20Inquiry&body=Halo%20Gulam,%20saya%20tertarik%20untuk%20bekerja%20sama%20dengan%20Anda."
+                                target="_blank"
+                                rel="noopener noreferrer"
                             >
-                                <FaEnvelope className="text-cyan-600 dark:text-cyan-400
-                                text-sm md:text-base"
-                                ></FaEnvelope>
+                                <motion.button
+                                whileHover={{scale: 1.05}}
+                                whileTap={{scale: 0.95}}
+                                className="px-6 md:px-8 py-2 border-2 border-cyan-500
+                                text-cyan-600 dark:text-cyan-400 rounded-full
+                                font-semibold text-base md:text-lg
+                                hover:bg-cyan-300 dark:hover:bg-cyan-50
+                                transition-all duration-300 flex items-center gap-2
+                                [text-shadow:0_0_8px_rgb(32_211_238)]"
+                                >
+                                <FaEnvelope className="text-cyan-600 dark:text-cyan-400 text-sm md:text-base" />
                                 Hire Me
-                            </motion.button>
+                                </motion.button>
+                            </a>
                         </motion.div>
                     </motion.div>
                 </div>

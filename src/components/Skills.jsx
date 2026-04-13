@@ -1,5 +1,6 @@
 import { FaReact, FaMicrochip, FaPython, FaVuejs, FaRobot, FaLaravel } from "react-icons/fa";
 import { SiTailwindcss, SiArduino } from "react-icons/si";
+import { FcLinux } from "react-icons/fc";
 // eslint-disable-next-line no-unused-vars
 import { motion } from "framer-motion";
 
@@ -13,6 +14,7 @@ function Skills(){
         {name: "Arduino", Icon: SiArduino, color: "#00979d"},
         {name: "ROS2", Icon: FaRobot, color: "#FF6B6B"},
         {name: "Laravel", Icon: FaLaravel, color: "#FF2D20"},
+        {name: "Linux", Icon: FcLinux, color: "#FF2D20"},
     ];
 
     const duplicateSkills = [...skills, ...skills, ...skills];

@@ -29,7 +29,7 @@ function Footer(){
                     items-center gap-1"
                     >
                         Made with <FaHeart className="text-cyan-500"/>
-                        By Muhammad Gulam Syarif
+                        By gulam.syarif38@gmail.com
                     </motion.p>
                     <motion.div
                     initial={{opacity: 0, y:10}}
