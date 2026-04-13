@@ -78,7 +78,7 @@ function Hero (){
                         >
                             <span className="text-slate-700 dark:text-slate-300">
                                 Hi, I'm 
-                                <span className="font-bold text-cyan-100"> Muhammad Gulam Syarif</span>
+                                <span className="font-bold text-cyan-600 dark:text-cyan-100"> Muhammad Gulam Syarif</span>
                             </span>
                             <motion.span
                             className="relative inline-block text-transparent bg-clip-text
