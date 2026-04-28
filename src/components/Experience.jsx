@@ -6,7 +6,7 @@ function Experience(){
     const experience =[
         {
             side: 'left',
-            title: 'Lead Team Humanoid',
+            title: 'Core Team - Humanoid Division',
             tahun: 'Jan - Des 2025',
             company: 'Robotiik Filkom UB',
             desc: 'Led a humanoid robotics team in designing and developing systems for the ROBOTIS OP3 robot, including task distribution, project planning, and technical decision-making. Additionally, ensured that each team member achieved their assigned progress according to the established targets.',

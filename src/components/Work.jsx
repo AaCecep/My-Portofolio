@@ -7,6 +7,7 @@ import work2 from "../assets/work2.png"
 import work3 from "../assets/work3.png"
 import work4 from "../assets/work4.png"
 import work5 from "../assets/work5.png"
+import work6 from "../assets/work6.png"
 import { FaChevronCircleLeft, FaChevronCircleRight, FaExternalLinkAlt, FaGithub } from "react-icons/fa";
 
 function Work(){
@@ -34,7 +35,12 @@ function Work(){
             link:"https://drive.google.com/file/d/1C4sRgEpUOWqNXwSJWl9LK8LYqNUac4Nd/view?usp=sharing",
             git: "https://github.com/AaCecep/Lokalisasi"
         },
-        {id:5, title:"Modern Restaurant Website UI", category: 'Fontend',
+        {id:5, title:"Shopping Store", category: 'Fullstack',
+            img: work6, tech: ['MongoDB', 'Express', 'vue', 'Node', 'JSON', 'Server'], 
+            link:"https://gist.github.com/AaCecep",
+            git: "https://gist.github.com/AaCecep"
+        },
+        {id:6, title:"Modern Restaurant Website UI", category: 'Fontend',
             img: work1, tech: ['React', 'Tailwind'], 
             link:"https://restaurantgulam.netlify.app/",
             git: "https://github.com/AaCecep/Restaurant"

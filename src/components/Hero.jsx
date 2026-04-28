@@ -16,8 +16,8 @@ function Hero (){
     const titles = [
         'Web Developer',
         'Robotic Enthusiast',
-        'Embedded Systems',
-        'Automation Engineer'
+        'Internet of Things (IoT) Developer',
+        'AI and Automation Engineer'
     ]
     
     useEffect(() => {

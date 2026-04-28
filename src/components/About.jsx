@@ -134,16 +134,15 @@ function About(){
                         whileInView={{opacity:1, y: 0}}
                         viewport={{once: true}}
                         transition={{duration: 0.6, delay: 0.3}}>
-                            I have strong competencies in Web Development, Embedded Systems, Internet of Things (IoT), and Robotics. I have hands-on experience in developing web applications using modern frameworks such as React, Vue.js, and Laravel.
-                        </motion.p>
+                            I have strong competencies in web development, artificial intelligence (AI), automation engineering, Internet of Things (IoT), and robotics. I have experience in developing web applications using modern frameworks such as React, Vue.js, and Laravel, as well as working with both SQL and NoSQL databases like MongoDB. In addition, I am capable of designing, implementing, and developing automation systems by applying control system methods, artificial intelligence, machine learning, and data processing to deliver efficient and reliable solutions.
+                         </motion.p>
                         <motion.p className="text-base md:text-lg text-slate-600
                         dark:text-slate-400 mb-6 max-w-2xl lg:mx-0"
                         initial={{opacity:0, y: 20}}
                         whileInView={{opacity:1, y: 0}}
                         viewport={{once: true}}
                         transition={{duration: 0.6, delay: 0.3}}>
-                            I am also experienced in designing and developing integrated computer systems involving various sensors and actuators, including implementing communication protocols and optimizing system performance in resource-constrained environments.
-                            In addition, I have a strong specialization in robotics, particularly in the development and control of humanoid robots such as ROBOTIS OP3. My experience includes implementing balance control systems, integrating hardware and software using ROS, and analyzing system stability using PID control methods.
+                            In the field of robotics, I specialize in the development and control of humanoid robots, particularly ROBOTIS OP3. My experience includes implementing balance control systems, integrating hardware and software using ROS, and analyzing system stability using PID control methods to ensure optimal robot performance and stability.
                         </motion.p>
                         <motion.div className="flex flex-wrap gap-6 md:gap-8
                         justify-center lg:justify-start mb-8"
