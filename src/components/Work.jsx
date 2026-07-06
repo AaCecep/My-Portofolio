@@ -45,6 +45,11 @@ function Work(){
             link:"https://restaurantgulam.netlify.app/",
             git: "https://github.com/AaCecep/Restaurant"
         },
+        {id:6, title:"Modern Restaurant Website UI", category: 'Fontend',
+            img: work1, tech: ['React', 'Tailwind'], 
+            link:"https://restaurantgulam.netlify.app/",
+            git: "https://github.com/AaCecep/Restaurant"
+        },
     ];
 
     const nextSlide = () => {
