@@ -8,6 +8,7 @@ import work3 from "../assets/work3.png"
 import work4 from "../assets/work4.png"
 import work5 from "../assets/work5.png"
 import work6 from "../assets/work6.png"
+import work7 from "../assets/work7.png"
 import { FaChevronCircleLeft, FaChevronCircleRight, FaExternalLinkAlt, FaGithub } from "react-icons/fa";
 
 function Work(){
@@ -15,37 +16,37 @@ function Work(){
     const itemsPerPage = 6;
 
     const projects = [
-        {id:1, title:"Sistem Kontrol Zero Moment Point (ZMP) untuk Keseimbangan Humanoid Robot dengan Proportional Integral Derivatif (PID)", category: 'Robotis',
+        {id:1, title:"Sistem Kontrol Zero Moment Point (ZMP) untuk Keseimbangan Humanoid Robot dengan Proportional Integral Derivatif (PID)", category: 'Robotics',
             img: work4, tech: ['ROS 2', 'ZMP', 'PID', 'Inverse Kinematic', 'ROBOTIS OP3'],
             link:"https://drive.google.com/file/d/1QpoGrLaE1K7lyBftbSdyKgweL3Ir1shY/view?usp=sharing",
             git: "https://github.com/AaCecep/Sistem-kontrol-ZMP-untuk-keseimbangan-robot-humanoid-dengan-PID"
         },
-        {id:2, title:"Wearable Device untuk Mendeteksi Stres Berbasis Sinyal Photoplethysmogram", category: 'Machine Learning',
+        {id:2, title:"TurtleBot3 Autonomous Navigation using ROS 2 Nav2 with Waypoint Following and Obstacle Avoidance", category: 'Robotics',
+            img: work7, tech: ["Nav2","Gazebo","RViz","SLAM","TurtleBot3", "ROS 2"], 
+            link:"https://drive.google.com/file/d/1APRAteQRiZJf17vwbAgSpMVTu8xwmzyg/view?usp=sharing",
+            git: "https://github.com/AaCecep/Turtulebots3_nav2"
+        },
+        {id:3, title:"Wearable Device untuk Mendeteksi Stres Berbasis Sinyal Photoplethysmogram", category: 'Machine Learning',
             img: work3, tech: ['Sensor MAX30102', 'Sinyal PPG', 'Random Forest', 'ESP32S3'],
             link:"https://filkom.ub.ac.id/project/2025/06/wearable-device-untuk-mendeteksi-stress-berbasis-sinyal-photoplethysmogram/",
             git: "https://github.com/kathleeneve-lyn/Capstone-Project-Deteksi-Stress"
         },
-        {id:3, title:"FreshCart – Organic Grocery Platform", category: 'Frontend',
-            img: work2, tech: ['React', 'Tailwind'],
-            link:"https://grocerygulam.netlify.app/",
-            git: "https://github.com/AaCecep/grocery"
-        },
-        {id:4, title:"Lokalisasi", category: 'Robotis',
+        {id:4, title:"Lokalisasi", category: 'Robotics',
             img: work5, tech: ['ROS 2', 'ROBOTIS OP3', 'IMU'],
             link:"https://drive.google.com/file/d/1C4sRgEpUOWqNXwSJWl9LK8LYqNUac4Nd/view?usp=sharing",
             git: "https://github.com/AaCecep/Lokalisasi"
         },
-        {id:5, title:"Shopping Store", category: 'Fullstack',
+        {id:5, title:"FreshCart – Organic Grocery Platform", category: 'Frontend',
+            img: work2, tech: ['React', 'Tailwind'],
+            link:"https://grocerygulam.netlify.app/",
+            git: "https://github.com/AaCecep/grocery"
+        },
+        {id:6, title:"Shopping Store", category: 'Fullstack',
             img: work6, tech: ['MongoDB', 'Express', 'vue', 'Node', 'JSON', 'Server'], 
             link:"https://gist.github.com/AaCecep",
             git: "https://gist.github.com/AaCecep"
         },
-        {id:6, title:"Modern Restaurant Website UI", category: 'Fontend',
-            img: work1, tech: ['React', 'Tailwind'], 
-            link:"https://restaurantgulam.netlify.app/",
-            git: "https://github.com/AaCecep/Restaurant"
-        },
-        {id:6, title:"Modern Restaurant Website UI", category: 'Fontend',
+        {id:7, title:"Modern Restaurant Website UI", category: 'Fontend',
             img: work1, tech: ['React', 'Tailwind'], 
             link:"https://restaurantgulam.netlify.app/",
             git: "https://github.com/AaCecep/Restaurant"
