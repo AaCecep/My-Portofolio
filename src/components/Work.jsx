@@ -9,6 +9,7 @@ import work4 from "../assets/work4.png"
 import work5 from "../assets/work5.png"
 import work6 from "../assets/work6.png"
 import work7 from "../assets/work7.png"
+import work8 from "../assets/work8.png"
 import { FaChevronCircleLeft, FaChevronCircleRight, FaExternalLinkAlt, FaGithub } from "react-icons/fa";
 
 function Work(){
@@ -36,17 +37,22 @@ function Work(){
             link:"https://drive.google.com/file/d/1C4sRgEpUOWqNXwSJWl9LK8LYqNUac4Nd/view?usp=sharing",
             git: "https://github.com/AaCecep/Lokalisasi"
         },
-        {id:5, title:"FreshCart – Organic Grocery Platform", category: 'Frontend',
-            img: work2, tech: ['React', 'Tailwind'],
-            link:"https://grocerygulam.netlify.app/",
-            git: "https://github.com/AaCecep/grocery"
+        {id:5, title:"Admin Panel", category: 'Frontend',
+            img: work8, tech: ['React', 'Tailwind'],
+            link:"https://adminpanelgulam.netlify.app/",
+            git: "https://github.com/AaCecep/Admin-Panel"
         },
         {id:6, title:"Shopping Store", category: 'Fullstack',
             img: work6, tech: ['MongoDB', 'Express', 'vue', 'Node', 'JSON', 'Server'], 
             link:"https://gist.github.com/AaCecep",
             git: "https://gist.github.com/AaCecep"
         },
-        {id:7, title:"Modern Restaurant Website UI", category: 'Fontend',
+        {id:7, title:"FreshCart – Organic Grocery Platform", category: 'Frontend',
+            img: work2, tech: ['React', 'Tailwind'],
+            link:"https://grocerygulam.netlify.app/",
+            git: "https://github.com/AaCecep/grocery"
+        },
+        {id:8, title:"Modern Restaurant Website UI", category: 'Frontend',
             img: work1, tech: ['React', 'Tailwind'], 
             link:"https://restaurantgulam.netlify.app/",
             git: "https://github.com/AaCecep/Restaurant"
