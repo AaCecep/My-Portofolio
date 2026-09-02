@@ -134,15 +134,15 @@ function About(){
                         whileInView={{opacity:1, y: 0}}
                         viewport={{once: true}}
                         transition={{duration: 0.6, delay: 0.3}}>
-                            I have strong competencies in web development, artificial intelligence (AI), automation engineering, Internet of Things (IoT), and robotics. I have experience in developing web applications using modern frameworks such as React, Vue.js, and Laravel, as well as working with both SQL and NoSQL databases like MongoDB. In addition, I am capable of designing, implementing, and developing automation systems by applying control system methods, artificial intelligence, machine learning, and data processing to deliver efficient and reliable solutions.
-                         </motion.p>
+                            I am a Computer Engineering graduate from Universitas Brawijaya with a strong interest in AI Engineering, Machine Learning, Robotics, Automation, Web Development, and IoT. I have experience developing and training supervised and unsupervised machine learning models and integrating trained models into embedded systems, IoT devices, and robotic applications. I also develop AI-powered applications using Large Language Models (LLMs), Embeddings, Retrieval-Augmented Generation (RAG), and AI Agents. In software development, I have experience building modern web applications using Next.js, React.js, Vue.js, and Laravel, supported by SQL and NoSQL databases such as PostgreSQL, MySQL, Supabase, MongoDB, and pgvector.
+                        </motion.p>
                         <motion.p className="text-base md:text-lg text-slate-600
                         dark:text-slate-400 mb-6 max-w-2xl lg:mx-0"
                         initial={{opacity:0, y: 20}}
                         whileInView={{opacity:1, y: 0}}
                         viewport={{once: true}}
                         transition={{duration: 0.6, delay: 0.3}}>
-                            In the field of robotics, I specialize in the development and control of humanoid robots, particularly ROBOTIS OP3. My experience includes implementing balance control systems, integrating hardware and software using ROS, and analyzing system stability using PID control methods to ensure optimal robot performance and stability.
+                            In robotics and automation, I specialize in developing intelligent robotic systems using ROS/ROS2, Python, and C++, with hands-on experience working with humanoid robots, particularly the ROBOTIS OP3. My experience includes developing real-time control systems, sensor integration, data processing, and robot balance control using PID-based Zero Moment Point (ZMP) methods. I enjoy combining AI, machine learning, control systems, and embedded technologies to design and implement intelligent solutions that can operate effectively in real-world environments.
                         </motion.p>
                         <motion.div className="flex flex-wrap gap-6 md:gap-8
                         justify-center lg:justify-start mb-8"

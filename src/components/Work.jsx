@@ -10,11 +10,12 @@ import work5 from "../assets/work5.png"
 import work6 from "../assets/work6.png"
 import work7 from "../assets/work7.png"
 import work8 from "../assets/work8.png"
+import work9 from "../assets/work9.png"
 import { FaChevronCircleLeft, FaChevronCircleRight, FaExternalLinkAlt, FaGithub } from "react-icons/fa";
 
 function Work(){
     const [currentIndex, setCurrentIndex] = useState(0);
-    const itemsPerPage = 6;
+    const itemsPerPage = 9;
 
     const projects = [
         {id:1, title:"Sistem Kontrol Zero Moment Point (ZMP) untuk Keseimbangan Humanoid Robot dengan Proportional Integral Derivatif (PID)", category: 'Robotics',
@@ -36,6 +37,11 @@ function Work(){
             img: work5, tech: ['ROS 2', 'ROBOTIS OP3', 'IMU'],
             link:"https://drive.google.com/file/d/1C4sRgEpUOWqNXwSJWl9LK8LYqNUac4Nd/view?usp=sharing",
             git: "https://github.com/AaCecep/Lokalisasi"
+        },
+        {id:9, title:"AI-Powered Personal Finance Management System", category: 'Artificial Intelligence',
+            img: work9, tech: ['AI Agent', 'LLM', 'RAG', 'Embedding', 'Next.js', 'Supabase', 'gemini api'], 
+            link:"https://restaurantgulam.netlify.app/",
+            git: "https://github.com/AaCecep/Restaurant"
         },
         {id:5, title:"Admin Panel", category: 'Frontend',
             img: work8, tech: ['React', 'Tailwind'],

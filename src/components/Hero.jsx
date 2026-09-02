@@ -17,7 +17,8 @@ function Hero (){
         'Web Developer',
         'Robotic Enthusiast',
         'Internet of Things (IoT) Developer',
-        'AI and Automation Engineer'
+        'AI Engineering',
+        'Machine Learning Enthusiast',
     ]
     
     useEffect(() => {
