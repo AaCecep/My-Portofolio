@@ -40,8 +40,8 @@ function Work(){
         },
         {id:9, title:"AI-Powered Personal Finance Management System", category: 'Artificial Intelligence',
             img: work9, tech: ['AI Agent', 'LLM', 'RAG', 'Embedding', 'Next.js', 'Supabase', 'gemini api'], 
-            link:"https://restaurantgulam.netlify.app/",
-            git: "https://github.com/AaCecep/Restaurant"
+            link:"https://ai-powered-apps-silk.vercel.app/dashboard",
+            git: "https://ai-powered-apps-silk.vercel.app/dashboard"
         },
         {id:5, title:"Admin Panel", category: 'Frontend',
             img: work8, tech: ['React', 'Tailwind'],
